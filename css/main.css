@@ -1,0 +1,150 @@
+/**** Base Style ****/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24pt;
+}
+
+header h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 60pt;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 350px;
+  color: #bdbf09;
+}
+
+header h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 38pt;
+  text-align: center;
+  color: #095156;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/**** Structure ****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  clear: both;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+  margin: 0 auto;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/**** Header ****/
+header {
+  height: 800px;
+  background: url('../img/hero-image.png');
+  background-size: cover;
+}
+
+/**** Work ****/
+
+
+#work .half-width {
+  width: 50%;
+  float: left;
+  display: flex;
+  flex-flow: column;
+}
+
+#work h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 34pt;
+  font-weight: bold;
+  color: #095156;
+  text-align: center;
+}
+
+#work h2 {
+  font-family: 'Roboto', sans-sans-serif;
+  font-size: 24pt;
+  font-weight: bold;
+  color: #095156;
+}
+
+#work p {
+  font-family: 'Roboto', sans-sans-serif;
+  font-size: 24pt;
+  color: #095156;
+}
+
+#work img {
+  border-width: 1px;
+  border-color: #b7b7b7;
+  padding: 35px;
+}
+
+/**** About ****/
+#about {
+  height: 650px;
+  background-color: #087e8b;
+}
+
+#about h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 36pt;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+
+#about p {
+  font-family: 'Roboto', sans-sans-serif;
+  font-size: 24pt;
+  color: #ffffff;
+}
+
+/**** Contact ****/
+#contact {
+  height: 400px;
+  background-color: #095156;
+}
+
+#contact h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 36pt;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+
+#contact h2 {
+  font-family: 'Roboto', sans-sans-serif;
+  font-size: 24pt;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#contact p {
+  font-family: 'Roboto', sans-sans-serif;
+  font-size: 24pt;
+  color: #ffffff;
+  text-align: center;
+}
